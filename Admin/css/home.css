@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    transition: 0.5s;
+}
+
+/*poster*/
+.poster {
+    background-image: url("../img/homebg.jpg");
+    background-attachment: fixed;
+    box-shadow: inset 0 0 0 2000px #1c1c1c7a;
+    text-align: center;
+    padding: 160px 15px;
+}
+
+@media (max-width: 768px) {
+    .poster {
+        padding: 100px 15px;
+    }
+}
+
+.poster {
+    background-color: white;
+}
+
+
+.input-group-prepend {
+    margin-right: -1px;
+    display: flex;
+}
+
+/*Customer Feedback*/
+.feedback-card {
+    background-image: linear-gradient(#ff7a00, #ffc107);
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    font-size: 13px;
+}
+
+.footer-container {
+    padding: 24px;
+}
+
+.footer-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-details {
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+@media(max-width:768px) {
+    .footer-details {
+        width: 100%;
+    }
+}
+
+.footer-details a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-copyright {
+    color: #ff7a00;
+    text-align: center;
+    padding-top: 24px;
+}
+
+/* Login Modal */
+#login-modal .modal-dialog {
+    width: 350px;
+    margin: auto;
+}
+
+.modal-footer {
+    background-color: white;
+    justify-content: center;
+}
+
+/*check_box*/
+.check-box {
+    width: -webkit-fill-available;
+}
+
+@media(max-width:443px) {
+    .check-box {
+        width: 100%;
+    }
+
+    .form-check {
+        font-size: 11px;
+    }
+}

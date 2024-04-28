@@ -1,0 +1,71 @@
+body{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bikeservice_bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+@media (max-width: 985px){
+    body{
+        background-size: auto;
+    }
+}
+
+.serv p {
+    background-color: #ffc107;
+    border: solid #ff7a00 1px;
+    color: white;
+    cursor: pointer;
+    font-size: 11px;
+}
+
+.col-md-4 h5,
+h6 {
+    text-align: center;
+}
+
+.order-status,.price,.order-status-canceled {
+    border: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: black;
+}
+
+.order-status {
+    color: green;
+}
+
+.order-status-canceled {
+    color: red;
+}
+
+.oid {
+    background-color: #ff7a00;
+    color: white;
+}
+
+h5 {
+    background-color: #ff7a0000;
+    color: #ffc107;
+}
+
+.myorder-list {
+    border: solid white;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 1), 0 2px 10px 0 rgba(0, 0, 0, 0);
+    background-color: white;
+}
+
+.myorder-list:hover {
+    border: solid white;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 1), 0 2px 10px 0 rgba(0, 0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (min-width:768px) {
+    #CONTACT {
+        display: none;
+    }
+}

@@ -1,0 +1,71 @@
+*{
+    transition: 0.5s;
+}
+
+.serv p {
+    background-color: #70ff00;
+    border: solid #ff7a00 1px;
+    color: white;
+    cursor: pointer;
+    font-size: 11px;
+}
+
+.col-md-4 h5,
+h6 {
+    text-align: center;
+}
+
+.order-status,.price,.order-status-canceled {
+    border: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: black;
+}
+
+.order-status {
+    color: green;
+}
+
+.order-status-canceled {
+    color: red;
+}
+
+.oid {
+    background-color: #56c202;
+    color: white;
+}
+
+h5 {
+    background-color: #ff7a0000;
+    color: #75ff09;
+}
+
+.myorder-list {
+    border: solid white;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 1), 0 2px 10px 0 rgba(0, 0, 0, 0);
+    background-color: white;
+}
+
+.myorder-list:hover {
+    border: solid white;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 1), 0 2px 10px 0 rgba(0, 0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+}
+.customer_name{
+    border: none;
+    align-items: center;
+    display: flex;
+    height: 43%;
+    justify-content: center;
+    color: black;
+}
+
+
+div#detailsss {
+    padding-left: 10px;
+}

@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Footer */
+.footer {
+    font-size: 13px;
+}
+
+.footer-container {
+    padding: 24px;
+}
+
+@media(max-width:768px) {
+    .footer-details {
+        width: 100%;
+    }
+}
+
+
+.footer-copyright {
+    color: #ff7a00;
+    text-align: center;
+    padding-top: 24px;
+}
+
+/* Login Modal */
+#login-modal .modal-dialog {
+    width: 350px;
+    margin: auto;
+}
+
+.modal-footer {
+    background-color: white;
+    justify-content: center;
+}
+
+/* Admin page */
+
+.col-sm-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.admin_d {
+    height: 100%;
+}
+
+.card {
+    height: 72%;
+    width: 100%;
+    align-items: center;
+}
+
+.card img {
+    border-radius: 50%;
+    padding: 10% 10% 10% 10%;
+    height: 258px;
+    width: 258px;
+}
+
+@media (min-width: 1439px) {
+    .admin {
+        height: 445px;
+    }
+}

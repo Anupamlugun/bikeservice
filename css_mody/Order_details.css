@@ -1,0 +1,168 @@
+.line {
+    width: 42%;
+    height: 10px;
+}
+
+.circle {
+    width: 6%;
+    border-radius: 45%;
+    height: 27px;
+}
+
+.status {
+    padding: 0px 50px 0px 50px;
+}
+
+.serv p {
+    background-color: #ffc107;
+    border: solid #ff7a00 1px;
+    color: white;
+    cursor: pointer;
+    font-size: smaller;
+    text-align: center;
+}
+
+.serv p:hover {
+    background-color: #ff7a00;
+    border: solid #ffc107 1px;
+    color: white;
+}
+
+.order-status div {
+    font-size: unset;
+    font-style: oblique;
+}
+
+.cardstyle1 {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    margin: 0px 5px 0px 0px;
+    background-color: white;
+
+}
+.cardstyle2 {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    margin: 0px 0px 0px 5px;
+    background-color: white;
+}
+@media (max-width: 767px) {
+    .cardstyle1{
+        margin: 0px 0px 5px 0px;
+    }
+    .cardstyle2{
+        margin: 5px 0px 0px 0px;
+    }
+}
+
+
+/* order-line-status */
+@media (min-width: 320px) and (max-width: 424px) {
+    .order-status {
+        font-size: small;
+    }
+
+    .circle {
+        width: 6%;
+        height: 12px;
+    }
+
+    .order-date {
+        font-size: smaller;
+    }
+
+    .line {
+        height: 3px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 499px) {
+    .circle {
+        width: 5%;
+        height: 15px;
+    }
+
+    .line {
+        height: 4px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 767px) {
+    .circle {
+        width: 4%;
+        height: 17px;
+    }
+
+    .line {
+        height: 3px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .circle {
+        width: 12%;
+        height: 17px;
+    }
+
+    .line {
+        height: 3px;
+    }
+
+    .order-status {
+        font-size: x-small;
+    }
+
+    .order-date {
+        font-size: smaller;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1207px) {
+    .circle {
+        width: 7%;
+        height: 17px;
+    }
+
+    .line {
+        height: 3px;
+    }
+}
+
+@media (min-width: 1208px) and (max-width: 1399px) {
+    .circle {
+        width: 6%;
+        height: 21px;
+    }
+
+    .line {
+        height: 5px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .circle {
+        width: 6%;
+        height: 25px;
+    }
+
+    .line {
+        height: 5px;
+    }
+}
+
+/* feedback-star */
+.feedback-star {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row{
+    justify-content: center;
+}
+body{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bikeservice_bg.jpg");
+    background-size: cover;
+}
+@media (max-width: 985px){
+    body{
+        background-size: auto;
+    }
+}
